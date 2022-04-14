@@ -279,8 +279,7 @@
   transition: all .2s linear;
 }
 @media screen and (min-width: 1023px) and (max-width: 1180px) {
-  .page{
-  }
+
   .header{
     max-width: 928px;
   }
@@ -516,8 +515,7 @@
     max-height: 320px;
     padding-bottom: 32px;
   }
-  .cover{
-  }
+
   .cover__link {
     max-width: 320px;
     min-height: 200px;
