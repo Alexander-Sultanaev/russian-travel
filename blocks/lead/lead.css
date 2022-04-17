@@ -9,6 +9,12 @@
   color: #fff;
 }
 
+@media screen and (min-width: 1700px) {
+  .lead{
+    max-width: 1500px;
+  }
+}
+
 @media screen and (min-width: 1023px) and (max-width: 1180px) {
   .lead{
     max-width: calc(100% - 48px * 2);
