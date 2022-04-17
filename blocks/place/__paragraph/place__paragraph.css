@@ -30,7 +30,7 @@
 @media screen and (min-width: 319px) and (max-width: 767px){
   .place__paragraph {
     grid-column-start: 1;
-    max-width: 288px;
+    max-width: calc(100% - 16px * 2);
     grid-row-start: 4/6;
     font-size: 16px;
     padding: 0px 0px 25px 16px;

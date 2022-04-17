@@ -23,6 +23,6 @@
 
   .places{
     padding-top: 64px;
-    max-width: 320px;
+    max-width: calc(100% - 16px * 2);
   }
 }

@@ -9,19 +9,19 @@
 
 @media screen and (min-width: 1023px) and (max-width: 1180px) {
   .header{
-    max-width: 928px;
+    max-width: calc(100% - 48px * 2);
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px){
   .header{
-    max-width: 720px;
+    max-width: calc(100% - 24px * 2);
   }
 }
 
 @media screen and (min-width: 319px) and (max-width: 767px){
   .header{
     padding-top: 16px;
-    max-width: 288px;
+    max-width: calc(100% - 16px * 2);
   }
 }
