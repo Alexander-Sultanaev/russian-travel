@@ -9,18 +9,17 @@
   margin: 0 auto;
   max-width: 1184px;
   min-height: 740px;
-  background: radial-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../../images/cover/cover-trains.jpg) 0 50%/cover no-repeat;
+  background: radial-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../../images/cover/cover-trains.jpg) center/cover no-repeat;
 }
 
 .cover__link:hover{
-  background: radial-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../../images/cover/cover-trains.jpg) 0 50%/cover no-repeat;
+  background: radial-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(../../../images/cover/cover-trains.jpg) center/cover no-repeat;
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1180px) {
   .cover__link {
     max-width: 1024px;
     min-height: 640px;
-    background-size: auto;
   }
 }
 
@@ -35,6 +34,7 @@
   .cover__link {
     max-width: auto;
     min-height: 350px;
+    background-size: cover;
   }
 }
 
@@ -42,5 +42,6 @@
   .cover__link {
     max-width: 320px;
     min-height: 200px;
+
   }
 }
